@@ -13,6 +13,9 @@
   "keywords": [],
   "author": "",
   "license": "MIT",
+  "dependencies": {
+    "@stitches/react": "^1.2.8"
+  },
   "devDependencies": {
     "@ignite-ui/eslint-config": "*",
     "@ignite-ui/tokens": "*",
