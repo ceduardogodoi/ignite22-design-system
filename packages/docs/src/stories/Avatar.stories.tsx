@@ -9,6 +9,14 @@ export default {
     src: 'https://github.com/ceduardogodoi.png',
     alt: 'Carlos Godoi',
   },
+
+  argTypes: {
+    src: {
+      control: {
+        type: 'text',
+      },
+    },
+  },
 } as Meta<AvatarProps>
 
 export const Primary: StoryObj<AvatarProps> = {}
