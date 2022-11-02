@@ -5,6 +5,7 @@
   ],
   "scripts": {
     "dev": "turbo run dev --parallel",
+    "deploy-storybook": "storybook-to-ghpages",
     "build": "turbo run build"
   },
   "devDependencies": {
