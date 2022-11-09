@@ -20,9 +20,9 @@
     "phosphor-react": "^1.4.1"
   },
   "devDependencies": {
-    "@ignite-ui/eslint-config": "*",
-    "@ignite-ui/tokens": "*",
-    "@ignite-ui/ts-config": "*",
+    "@ceduardogodoi-ignite-ui2/eslint-config": "*",
+    "@ceduardogodoi-ignite-ui2/tokens": "*",
+    "@ceduardogodoi-ignite-ui2/ts-config": "*",
     "@types/react": "^18.0.21",
     "@types/react-dom": "^18.0.6",
     "react": "^18.2.0",
