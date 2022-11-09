@@ -32,5 +32,5 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
-          TURBO_TOKEN: Lw8y3tLLuhxVosyMsIZmAjdF
+          TURBO_TOKEN: ${{ github.VERCEL_TOKEN }}
           TURBO_TEAM: ceduardogodoi
