@@ -5,13 +5,13 @@ import { Text } from '../Text'
 export interface ToastProps {
   title: string
   message: string
-  handleClickClose(): void
+  onClose(): void
 }
 
-export function Toast({ title, message, handleClickClose }: ToastProps) {
+export function Toast({ title, message, onClose }: ToastProps) {
   return (
     <ToastContainer>
-      <X size={20} onClick={handleClickClose} />
+      <X size={20} onClick={onClose} />
 
       <ToastTitle size="xl">{title}</ToastTitle>
       <Text>{message}</Text>
